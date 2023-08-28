@@ -73,3 +73,27 @@ ol li {
     margin-top: 50px;
 }
 
+body.ethereum-bg {
+    background-image: url('/static/images/ethereum-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Making text more visible against the background */
+h1, h2, p {
+    color: white;
+}
+
+.subtitle {
+    color: rgba(255,255,255,0.8); /* Slightly transparent white */
+}
+
+/* If you have a specific blue shade in mind, adjust this */
+.bg-light {
+    background-color: #007BFF !important; /* Default bootstrap blue color */
+}
+
+.scroll-indicator {
+    padding: 50px 0; /* Gives space above and below */
+}

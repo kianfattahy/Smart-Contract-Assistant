@@ -5,37 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translate Ethereum Contract</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <header>
-            <h1>Translate Ethereum Contract</h1>
+<body class="bg-light ethereum-bg">
+    <div class="container mt-5">
+        <header class="text-center">
+            <h1 class="display-4">Translate Ethereum Contract</h1>
         </header>
 
-        <section class="translator">
+        <section class="translator mt-5">
             <form action="/translate" method="post">
-                <textarea name="contract_code" placeholder="Paste your Ethereum contract code here"></textarea>
-                <input type="submit" value="Translate">
+                <textarea class="form-control" rows="5" name="contract_code" placeholder="Paste your Ethereum contract code here"></textarea>
+                <input type="submit" class="btn btn-primary btn-lg mt-3" value="Translate">
             </form>
             
             {% if error %}
-            <section class="error-message">
-                <p>{{ error }}</p>
+            <section class="error-message mt-5">
+                <p class="text-danger">{{ error }}</p>
             </section>
             {% endif %}
 
-            {% if output %}
-            <section class="translation-result">
-                <h2>Translation Result</h2>
-                <p>{{ output }}</p>
+            <!-- Display the structured translation results if available -->
+            <section class="translation-results mt-5">
+                {% if summary %}
+                <div class="translation-result mt-4">
+                    <h2 class="display-5">Overall Summary</h2>
+                    <p>{{ summary }}</p>
+                </div>
+                {% endif %}
+                {% if security_rating %}
+                <div class="translation-result mt-4">
+                    <h2 class="display-5">Security Rating</h2>
+                    <p>{{ security_rating }}</p>
+                </div>
+                {% endif %}
+                {% if key_functions %}
+                <div class="translation-result mt-4">
+                    <h2 class="display-5">Key Functions</h2>
+                    <p>{{ key_functions }}</p>
+                </div>
+                {% endif %}
+                {% if potential_issues %}
+                <div class="translation-result mt-4">
+                    <h2 class="display-5">Potential Issues</h2>
+                    <p>{{ potential_issues }}</p>
+                </div>
+                {% endif %}
             </section>
-            {% endif %}
+
         </section>
-
     </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 
