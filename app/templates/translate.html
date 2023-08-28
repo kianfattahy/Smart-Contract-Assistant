@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate Ethereum Contract</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Translate Ethereum Contract</h1>
+        </header>
+
+        <section class="translator">
+            <form action="/translate" method="post">
+                <textarea name="contract_code" placeholder="Paste your Ethereum contract code here"></textarea>
+                <input type="submit" value="Translate">
+            </form>
+            
+            {% if error %}
+            <section class="error-message">
+                <p>{{ error }}</p>
+            </section>
+            {% endif %}
+
+            {% if output %}
+            <section class="translation-result">
+                <h2>Translation Result</h2>
+                <p>{{ output }}</p>
+            </section>
+            {% endif %}
+        </section>
+
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
