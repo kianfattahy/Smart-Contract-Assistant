@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the site responsive -->
+    <title>Ethereum Contract Whisperer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Ethereum Contract Whisperer</h1>
+            <p class="subtitle">Your bridge from complex Ethereum contracts to plain English.</p>
+        </header>
+
+        <section class="intro">
+            <p>
+                Want to venture into the world of Ethereum contracts but baffled by the intricate logic? You're in the right place!
+            </p>
+        </section>
+
+        <section class="how-to">
+            <h2>How It Works</h2>
+            <p>
+                Ethereum Contract Whisperer translates the convoluted language of Ethereum contracts into comprehensible sentences. Perfect for both validation and simple curiosity.
+            </p>
+            <ol>
+                <li>Paste your Ethereum contract code into our translator.</li>
+                <li>Witness the magic as jargon transforms into clarity.</li>
+                <li>Get insights, understand functions, and master the crypto game.</li>
+            </ol>
+        </section>
+
+        <section class="cta">
+            <a href="/translate" class="use-tool-btn">Dive In & Translate</a>
+        </section>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

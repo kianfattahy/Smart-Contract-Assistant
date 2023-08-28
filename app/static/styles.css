@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF; /* Blue background color */
+    color: #fff; /* White text for readability against the blue background */
+    text-align: center;
+    padding-top: 50px;r
+    line-height: 1.6; /* Improved line spacing */
+}
+
+.container {
+    width: 80%; /* Use 80% of the viewport width */
+    margin: 0 auto; /* Center the container */
+    padding: 40px; /* Some padding around the content */
+    background-color: rgba(0, 0, 0, 0.1); /* Slight dark transparent background to improve readability */
+    border-radius: 10px; /* Rounded edges */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Spacing after the title */
+}
+
+.use-tool-btn {
+    display: inline-block;
+    padding: 15px 30px; 
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: #fff;
+    color: #007BFF; /* Blue text on the white button */
+    border-radius: 5px; /* Rounded edges for the button */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transform: scale(1);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.use-tool-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+    transform: scale(1.05); 
+}
+
+.subtitle {
+    font-weight: lighter; 
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    margin-top: 50px;
+}
+
