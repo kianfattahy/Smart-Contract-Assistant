@@ -14,7 +14,7 @@
 <body class="bg-light ethereum-bg">
     <div class="container mt-5">
         <header class="text-center">
-            <h1 class="display-4">Translate Ethereum Contract</h1>
+            <h1 class="display-3">Translate Ethereum Contract</h1>
         </header>
 
         <section class="translator mt-5">
@@ -22,37 +22,34 @@
                 <textarea class="form-control" rows="5" name="contract_code" placeholder="Paste your Ethereum contract code here"></textarea>
                 <input type="submit" class="btn btn-primary btn-lg mt-3" value="Translate">
             </form>
-            
+
             {% if error %}
-            <section class="error-message mt-5">
-                <p class="text-danger">{{ error }}</p>
+            <section class="error-message mt-5" style="text-align: left;">
+                <p class="text-danger display-5">Error: {{ error }}</p>
             </section>
             {% endif %}
 
             <!-- Display the structured translation results if available -->
-            <section class="translation-results mt-5">
+            <section class="translation-result mt-5">
                 {% if summary %}
                 <div class="translation-result mt-4">
-                    <h2 class="display-5">Overall Summary</h2>
-                    <p>{{ summary }}</p>
+                    <h2 class="display-4 text-center" style="text-align: center !important;"><span>Overall Summary</span></h2>
+                    <p style="text-align: left;">{{ summary|safe }}</p>
                 </div>
                 {% endif %}
-                {% if security_rating %}
-                <div class="translation-result mt-4">
-                    <h2 class="display-5">Security Rating</h2>
-                    <p>{{ security_rating }}</p>
-                </div>
-                {% endif %}
+            
                 {% if key_functions %}
                 <div class="translation-result mt-4">
-                    <h2 class="display-5">Key Functions</h2>
-                    <p>{{ key_functions }}</p>
+                    <h2 class="display-4 text-center"><span>Key Functions</span></h2>
+                    <ul style="text-align: left;">
+                        {{ key_functions|safe }}
+                    </ul>
                 </div>
                 {% endif %}
                 {% if potential_issues %}
                 <div class="translation-result mt-4">
-                    <h2 class="display-5">Potential Issues</h2>
-                    <p>{{ potential_issues }}</p>
+                    <h2 class="display-4 text-center text-danger"><span>Potential Issues</span></h2>
+                    <p style="text-align: left;">{{ potential_issues|safe }}</p>
                 </div>
                 {% endif %}
             </section>
@@ -65,6 +62,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+      // You could add some JavaScript here to change the color of the Security Rating title based on its value.
+      // This is just a stub and should be replaced with actual logic.
+      let securityRating = "{{ security_rating }}"; // Get this from your Flask backend
+      let titleElement = document.getElementById('security_rating_title');
+
+      if (securityRating === "Low Risk") {
+        titleElement.classList.add('text-success');
+      } else if (securityRating === "Moderate Risk") {
+        titleElement.classList.add('text-warning');
+      } else if (securityRating === "High Risk") {
+        titleElement.classList.add('text-danger');
+      }
+    </script>
 </body>
 
 </html>

@@ -1,76 +1,99 @@
+/* Define variables for colors */
+:root {
+    --primary-bg-color: #007BFF;
+    --primary-text-color: white;
+    --transparent-white: rgba(255, 255, 255, 0.8);
+    --gradient-start: #007BFF;
+    --gradient-end: #003366; /* Darker shade for gradient effect */
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #007BFF; /* Blue background color */
-    color: #fff; /* White text for readability against the blue background */
-    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: var(--primary-text-color);
     padding-top: 50px;
-    line-height: 1.6; /* Improved line spacing */
+    line-height: 1.6;
 }
 
 .container {
-    width: 80%; /* Use 80% of the viewport width */
-    margin: 0 auto; /* Center the container */
-    padding: 40px; /* Some padding around the content */
-    background-color: rgba(0, 0, 0, 0.1); /* Slight dark transparent background to improve readability */
-    border-radius: 10px; /* Rounded edges */
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adding a shadow */
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 20px; /* Spacing after the title */
+    font-size: 2.5em; /* Slightly bigger for a clearer title */
+    margin-bottom: 20px;
 }
 
 .use-tool-btn {
     display: inline-block;
-    padding: 15px 30px; 
+    padding: 15px 30px;
     font-size: 1.3em;
     text-decoration: none;
-    background-color: #fff;
-    color: #007BFF; /* Blue text on the white button */
-    border-radius: 5px; /* Rounded edges for the button */
-    margin-top: 20px; /* Space above the button */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
-    transform: scale(1);
+    background-color: var(--primary-text-color);
+    color: var(--primary-bg-color);
+    border-radius: 5px;
+    margin-top: 20px;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
 }
 
 .use-tool-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    color: #fff; /* White text on hover */
-    transform: scale(1.05); 
+    background-color: #0056b3;
+    color: var(--primary-text-color);
+    transform: scale(1.05);
 }
 
 .subtitle {
-    font-weight: lighter; 
-    font-size: 1.2em;
+    font-weight: 300; /* Using the 300 weight as per the Roboto font you linked */
+    font-size: 1.5em; /* Slightly bigger for clarity */
     margin-bottom: 20px;
+    color: var(--transparent-white);
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    padding-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 400; /* Using the 400 weight for a clearer heading */
+}
+
+h2 span {
+    border-bottom: 2px solid var(--transparent-white);
 }
 
 ol {
     text-align: left;
-    max-width: 600px;
+    max-width: 800px; /* Increased the max width for better spacing */
     margin: 0 auto;
-    padding-left: 20px;
+    padding-left: 40px; /* More padding for better spacing */
 }
 
 ol li {
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* More margin for better spacing */
+    font-size: 1.4em; /* Slightly bigger for clarity */
+}
+
+ol li span.icon-1,
+ol li span.icon-2,
+ol li span.icon-3 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    vertical-align: middle;
+    /* Add background-image for each icon or add specific styles as required */
 }
 
 .cta {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 body.ethereum-bg {
@@ -80,20 +103,14 @@ body.ethereum-bg {
     background-attachment: fixed;
 }
 
-/* Making text more visible against the background */
-h1, h2, p {
-    color: white;
-}
-
-.subtitle {
-    color: rgba(255,255,255,0.8); /* Slightly transparent white */
-}
-
-/* If you have a specific blue shade in mind, adjust this */
 .bg-light {
-    background-color: #007BFF !important; /* Default bootstrap blue color */
+    background-color: var(--primary-bg-color);
 }
 
 .scroll-indicator {
-    padding: 50px 0; /* Gives space above and below */
+    padding: 50px 0;
+}
+
+.translation-result ul {
+    text-align: left;
 }
