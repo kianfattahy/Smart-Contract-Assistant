@@ -1,4 +1,4 @@
-# Ethereum Contract Whisperer
+# Contract2Code
 
 Short description about the project.
 
