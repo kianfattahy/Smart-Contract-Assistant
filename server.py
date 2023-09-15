@@ -1,4 +1,3 @@
-#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
 import os  # Added for environment variable usage
 import app
 from flask import render_template, request
@@ -6,7 +5,7 @@ import requests
 import re
 
 # Move API key to environment variable for security
-API_KEY = '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' #os.environ.get('OPENAI_API_KEY')
+API_KEY = os.environ.get('OPENAI_API_KEY')
 
 app_instance = app.create_app()
 
@@ -147,3 +146,4 @@ def translate():
 
 if __name__ == '__main__':
     app_instance.run(debug=True)
+
