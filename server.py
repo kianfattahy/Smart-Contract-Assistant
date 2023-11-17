@@ -3,10 +3,10 @@ import os
 import re
 import requests
 
-# Local application imports
+
 from flask import render_template, request
 
-# Third-party imports
+
 import app
 
 # Constants
