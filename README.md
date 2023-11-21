@@ -36,7 +36,7 @@ User Interface
 Capabilities
 ------------
 
-- **Smart Contract Upload**: Users can upload contracts for analysis.
+- **Smart Contract Upload**: Users can upload their contracts for analysis.
 - **Automated Analysis**: The application analyzes contracts for security vulnerabilities and performance issues.
 - **Report Generation**: Generates comprehensive reports highlighting potential issues and suggestions.
 - **Feedback Mechanism**: Users can provide feedback for continuous improvement of the analysis algorithms.
