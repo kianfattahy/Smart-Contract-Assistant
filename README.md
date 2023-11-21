@@ -26,7 +26,7 @@ Smart contract analysis is crucial in the blockchain ecosystem, yet it can be co
 User Interface
 --------------
 ### 1. Onboarding Page: User login and authentication.
-   ![Screenshot 2023-11-21 at 12 09 50 PM](https://github.com/kianfattahy/Contract2Code/assets/94335877/ac43ab74-cf50-4c67-96f2-cd9e44cd11ad)
+   ![Screenshot 2023-11-21 at 12 09 50 PM](https://github.com/kianfattahy/Smart-Contract-Assistant/assets/94335877/0c9d31d8-2191-43cf-b15a-08256d781e84)
 ### 2. **Contracts Page**: Overview of Contracts
   ![Screenshot 2023-11-21 at 12 35 13 PM](https://github.com/kianfattahy/Contract2Code/assets/94335877/e81870f4-2345-4af5-8e6c-3d1775b0b70e)
 ### 3. **Report Generation Page**: Generate Reports for Contracts
