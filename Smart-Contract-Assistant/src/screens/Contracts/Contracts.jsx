@@ -140,7 +140,7 @@ export const Contracts = ({ userData, contracts, feedbackFramesGlobal }) => {
               divClassName="design-component-instance-node-4"
               nameDotsVerticalNameDotsVertical="/img/icons-5.png"
               text="Total Contracts"
-              text1="2"
+              text1="8"
             />
           </div>
         </div>
