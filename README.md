@@ -97,3 +97,52 @@ Open another terminal window, navigate to the src folder in the project director
 npm run dev
 ```
 The React app should now be up and running.
+
+### Sample Contract: Try Analyzing This!
+
+
+    
+    contract FantasyFootballBetting {
+        address public owner;
+        mapping(address => uint256) public balances;
+        uint256 public nextBetId;
+        mapping(uint256 => Bet) public bets;
+        
+        struct Bet {
+            address better;
+            uint256 amount;
+            uint8 selectedTeam;
+        }
+    
+        constructor() {
+            owner = msg.sender;
+        }
+    
+        function deposit() public payable {
+            require(msg.value > 0, "Deposit must be greater than 0");
+            balances[msg.sender] += msg.value;
+        }
+    
+        function placeBet(uint256 amount, uint8 team) public {
+            require(balances[msg.sender] >= amount, "Insufficient balance");
+            require(team == 1 || team == 2, "Invalid team selected");
+            balances[msg.sender] -= amount;
+            bets[nextBetId++] = Bet(msg.sender, amount, team);
+        }
+    
+        function resolveBet(uint256 betId, bool won) public {
+            require(msg.sender == owner, "Only owner can resolve bets");
+            Bet storage bet = bets[betId];
+            if (won) {
+                uint256 reward = bet.amount * 2;
+                require(balances[address(this)] >= reward, "Not enough funds in contract");
+                balances[bet.better] += reward;
+            }
+        }
+    
+        function withdraw(uint256 amount) public {
+            require(balances[msg.sender] >= amount, "Insufficient balance");
+            balances[msg.sender] -= amount;
+            payable(msg.sender).transfer(amount);
+        }
+    }
