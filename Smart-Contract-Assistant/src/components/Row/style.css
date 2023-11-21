@@ -1,0 +1,111 @@
+.row {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #e7e7ed;
+  display: flex;
+  height: 52px;
+  /* justify-content: space-between; */
+  left: 1822px;
+  position: relative;
+  top: 409px;
+  width: 1104px;
+  align-self: stretch;
+}
+
+.row .cell-instance {
+  width: 48px !important;
+}
+
+.row .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.row .cell-2 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  max-width: 300px !important;
+  width: unset !important;
+}
+
+.row .cell-3 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  max-width: 150px !important;
+  width: unset !important;
+}
+
+.row .cell-4 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  max-width: 120px !important;
+  min-width: 90px !important;
+  width: unset !important;
+}
+
+.row .row-cell-wrapper {
+  align-items: flex-start;
+  
+  display: flex;
+  height: 48px;
+  position: relative;
+  width: 100px;
+}
+
+.row .row-cell-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 12px;
+  position: relative;
+}
+
+.row .chip-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.row .cell-5 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  max-width: 100px !important;
+  min-width: 90px !important;
+  width: unset !important;
+}
+
+.row .design-component-instance-node-2 {
+  text-align: center !important;
+}
+
+.row .cell-6 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  max-width: 100px !important;
+  min-width: 65px !important;
+  width: unset !important;
+}
+
+.row .row-cell-4 {
+  align-self: stretch !important;
+  height: unset !important;
+  width: 130px !important;
+  align-self: center;
+}
+
+.row .icon-left-3 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}

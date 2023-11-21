@@ -1,0 +1,60 @@
+.chip {
+  align-items: flex-start;
+  border-radius: 200px;
+  display: inline-flex;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.chip .text-wrapper-6 {
+  color: #384049;
+  font-family: var(--body-sm-font-family);
+  font-size: var(--body-sm-font-size);
+  font-style: var(--body-sm-font-style);
+  font-weight: var(--body-sm-font-weight);
+  letter-spacing: var(--body-sm-letter-spacing);
+  line-height: var(--body-sm-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chip .name-arrow-narrow-up-color-default {
+  height: 16px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 16px !important;
+}
+
+.chip .customer-2 {
+  color: #147028;
+  font-family: var(--body-sm-font-family);
+  font-size: var(--body-sm-font-size);
+  font-style: var(--body-sm-font-style);
+  font-weight: var(--body-sm-font-weight);
+  letter-spacing: var(--body-sm-letter-spacing);
+  line-height: var(--body-sm-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chip.churned {
+  background-color: #eef1f7;
+  gap: 10px;
+  left: 20px;
+  top: 20px;
+}
+
+.chip.customer {
+  background-color: #e9fcee;
+  gap: 2px;
+  left: 116px;
+  top: 21px;
+  display: none;
+}

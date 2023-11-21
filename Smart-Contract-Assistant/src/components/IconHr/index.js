@@ -1,0 +1,1 @@
+export { IconHr } from "./IconHr";

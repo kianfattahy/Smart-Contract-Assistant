@@ -1,0 +1,1 @@
+export { FullTable } from "./FullTable";

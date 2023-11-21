@@ -1,0 +1,231 @@
+.sidebar {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 14px;
+  padding: 0px 0px 0px 15px;
+  position: relative;
+}
+
+.sidebar .container {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 29px;
+  justify-content: center;
+  padding: 0px 0px 36px;
+  position: relative;
+}
+
+.sidebar .content-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.sidebar .logo-action-items {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar .logo {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 38px 115px 38px 10px;
+  position: relative;
+  width: 299px;
+}
+
+.sidebar .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  position: relative;
+}
+
+.sidebar .ba-c-bd {
+  height: 30px;
+  position: relative;
+  width: 30px;
+  background-image: url(../../../static/img/b6a88616-c461-4b5d-8836-52550dbd3d7f-1.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sidebar .text-wrapper-3 {
+  color: var(--colorsbaseblack);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.sidebar .action-items {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 299px;
+}
+
+.sidebar .nav-base-instance {
+  left: unset !important;
+  top: unset !important;
+  
+}
+
+.sidebar .nav-base-2 {
+  align-items: center;
+  background-color: var(--colorsbasewhite);
+  
+  border-radius: 6px;
+  display: flex;
+  gap: 67px;
+  height: 48px;
+  padding: 12px 16px;
+  position: relative;
+  width: 299px;
+}
+
+.sidebar .content-3 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.sidebar .text-wrapper-4 {
+  color: var(--colorsbaseblack);
+  flex: 1;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: var(--body-large-font-style);
+  font-weight: var(--body-large-font-weight);
+  height: 19px;
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  position: relative;
+  white-space: nowrap;
+}
+
+.sidebar .badge {
+  align-items: flex-start;
+  background-color: var(--colorsgray-100);
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px 6px;
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar .text-wrapper-5 {
+  color: var(--colorsgray-400);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.sidebar .action-items-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.sidebar .user-card {
+  align-items: center;
+  border: 2px solid;
+  border-color: var(--colorsgray-200);
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 18px 16px;
+  position: relative;
+  width: 289px;
+}
+
+.sidebar .content-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 80px;
+  justify-content: center;
+  position: relative;
+  transition: all 0.15s ease;
+}
+
+.sidebar .avatar-text {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 148px;
+}
+
+.sidebar .avatar-2 {
+  background-position: 50% 50%;
+  background-image: url(../../../static/img/image-9.png);
+  background-size: cover;
+  height: 37px;
+  position: relative;
+  width: 37px;
+}
+
+.sidebar .text-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-right: -9px !important;
+  top: unset !important;
+}
+
+.sidebar .design-component-instance-node {
+  color: var(--colorsbaseblack) !important;
+}
+
+.sidebar .separator {
+  align-self: stretch;
+  margin-right: -2px;
+  position: relative;
+  width: 2px;
+}
+
+.sidebar .icons-2 {
+  background-image: unset !important;
+  left: unset !important;
+  top: unset !important;
+}

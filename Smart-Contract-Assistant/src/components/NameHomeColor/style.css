@@ -1,0 +1,9 @@
+.name-home-color {
+  background-image: url(../../../static/img/home-02-6.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 20px;
+  position: relative;
+  top: 20px;
+  width: 24px;
+}

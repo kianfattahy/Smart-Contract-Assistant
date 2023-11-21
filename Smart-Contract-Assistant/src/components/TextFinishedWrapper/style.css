@@ -1,0 +1,70 @@
+.text-finished-wrapper {
+  align-items: flex-start;
+  border-radius: 200px;
+  display: inline-flex;
+  position: relative;
+}
+
+.text-finished-wrapper .finished-2 {
+  font-family: var(--chips-font-family);
+  font-size: var(--chips-font-size);
+  font-style: var(--chips-font-style);
+  font-weight: var(--chips-font-weight);
+  letter-spacing: var(--chips-letter-spacing);
+  line-height: var(--chips-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+
+.text-finished-wrapper.Moderate {
+  background-color: #fffad1;
+  gap: 2px;
+  left: 198px;
+  padding: 5px 8px;
+  top: 21px;
+  margin-top: 7px;
+}
+
+.text-finished-wrapper.Strong {
+  background-color: #e9fcee;
+  gap: 2px;
+  left: 116px;
+  padding: 5px 8px;
+  top: 21px;
+  margin-top: 7px;
+}
+
+.text-finished-wrapper.finished {
+  background-color: #eef1f7;
+  gap: 10px;
+  left: 20px;
+  padding: 4px 8px;
+  top: 20px;
+}
+.text-finished-wrapper.created {
+  background-color: #eef1f7;
+  gap: 10px;
+  left: 20px;
+  padding: 4px 8px;
+  top: 20px;
+}
+
+.text-finished-wrapper.Moderate .finished-2 {
+  color: #705c14;
+}
+
+.text-finished-wrapper.Strong .finished-2 {
+  color: #147028;
+}
+
+.text-finished-wrapper.finished .finished-2 {
+  color: #384049;
+}
+
+.text-finished-wrapper.created .finished-2 {
+  color: #384049;
+}

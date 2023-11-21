@@ -1,0 +1,49 @@
+.row-wrapper {
+  align-items: flex;
+  display: inline-flex;
+  gap: 10px;
+  left: 402px;
+  position: relative;
+  justify-content: space-between;
+  top: 105px;
+}
+
+.row-wrapper .enabled-true-status-off-indeterminate-false {
+  left: 16px !important;
+  position: absolute !important;
+  top: 24px !important;
+}
+
+.row-wrapper .icon-left-4 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}
+
+.enabled-true-status-off-indeterminate-false {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cdced9;
+  border-radius: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 176px;
+  position: relative;
+  top: 16px;
+}
+
+/* Add this CSS for the hover animation */
+.row-wrapper:hover {
+  background-color: #f0f0f0; /* Change this color to the desired slightly lighter background color */
+  transition: background-color 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+.check-cell-border {
+  border-bottom-width: 1px;
+  border-color: #e7e7ed;
+  display: flex;
+  flex-grow: 1;
+}

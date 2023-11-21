@@ -1,0 +1,24 @@
+.avatar {
+  background-color: var(--colorsprimary-100);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 12px;
+  height: 24px;
+  left: 203px;
+  position: relative;
+  top: 343px;
+  width: 24px;
+}
+
+.avatar .text-wrapper-2 {
+  color: var(--colorsbaseblack);
+  font-family: "Inter", Helvetica;
+  font-size: 8px;
+  font-weight: 600;
+  left: 5px;
+  letter-spacing: -0.08px;
+  line-height: 11px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}

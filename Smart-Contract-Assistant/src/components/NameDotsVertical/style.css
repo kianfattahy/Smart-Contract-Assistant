@@ -1,0 +1,13 @@
+.name-dots-vertical {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+/* Add the hover animation */
+.name-dots-vertical:hover {
+  transform: scale(1.2); /* Increase the size on hover (you can adjust the scale factor) */
+  cursor: pointer;
+}

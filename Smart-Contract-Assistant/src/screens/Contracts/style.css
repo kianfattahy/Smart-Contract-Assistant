@@ -1,0 +1,332 @@
+.contracts {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.contracts .sidebar-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+}
+
+.response-screen .name-home-color-default-instance {
+  background-image: url(../../../static/img/home-02.png) !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+
+.response-screen .design-component-instance-node-6 {
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .design-component-instance-node-3 {
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .name-home-color-default-instance-contracts {
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .sidebar-2 {
+  background-image: url(../../../static/img/chevron-selector-vertical.png) !important;
+  height: 18px !important;
+  left: unset !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.response-screen .sidebar-3 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+}
+
+.response-screen .sidebar-4 {
+  background-image: url(../../../static/img/chevron-selector-vertical.png) !important;
+  height: 18px !important;
+  left: unset !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.contracts .main-wrap {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #f9f9fd;
+  border-color: var(--colorsgray-200);
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.contracts .header-container {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .header-container-but {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .header-2 {
+  align-items: center;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--colorsgray-200);
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 37px 26px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .text-wrapper-12 {
+  color: var(--colorsbaseblack);
+  font-family: var(--title-md-font-family);
+  font-size: var(--title-md-font-size);
+  font-style: var(--title-md-font-style);
+  font-weight: var(--title-md-font-weight);
+  letter-spacing: var(--title-md-letter-spacing);
+  line-height: var(--title-md-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.contracts .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 11px;
+  position: relative;
+}
+
+.contracts .button-6 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}
+
+.contracts .button-7 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .icons-3 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.contracts .design-component-instance-node-4 {
+  color: var(--colorsbaseblack) !important;
+}
+
+.contracts .analytics-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 26px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .card-container {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 27px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .card-instance {
+  border: 1px solid !important;
+  border-color: var(--colorsgray-200) !important;
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  gap: unset !important;
+  justify-content: space-between !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .card-2 {
+  color: var(--colorssuccess-200) !important;
+}
+
+.contracts .card-3 {
+  background-color: var(--colorssuccess-100) !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .avatar-group-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-left: -46px !important;
+  top: unset !important;
+}
+
+
+.contracts .table-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 15px;
+  padding: 0px 26px 26px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .table-card {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px #0000001a;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 15px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .filter-search {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .design-component-instance-node-5 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}
+
+.contracts .button-8 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .div-wrapper {
+  align-items: flex-start;
+  background-color: var(--colorsbasewhite);
+  border: 1px solid;
+  border-color: var(--gray-5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px 16px;
+  position: relative;
+  width: 307px;
+}
+
+.contracts .frame-10 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .name-search-color-default {
+  background-image: url(../../../static/img/search-md-2.png) !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.contracts .input {
+  background-color: transparent;
+  border: 0;
+  color: var(--colorsgray-300);
+  flex: 1;
+  flex-grow: 1;
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  font-style: var(--body-medium-font-style);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  padding: 0;
+  position: relative;
+}
+
+.contracts .table-border {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--colorsgray-200);
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.contracts .full-table-instance {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: 100% !important;
+}
+

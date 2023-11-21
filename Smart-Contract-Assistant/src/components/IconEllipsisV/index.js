@@ -1,0 +1,1 @@
+export { IconEllipsisV } from "./IconEllipsisV";

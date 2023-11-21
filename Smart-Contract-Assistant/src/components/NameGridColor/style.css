@@ -1,0 +1,9 @@
+.name-grid-color {
+  background-image: url(../../../static/img/grid-01.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 56px;
+  position: relative;
+  top: 156px;
+  width: 24px;
+}

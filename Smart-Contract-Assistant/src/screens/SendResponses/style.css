@@ -1,0 +1,275 @@
+.send-emails {
+  background-color: transparent; /* Change this line to set a transparent background */
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  overflow: hidden;
+  transition: all 0.5s ease-in-out; /* Adjust the duration (0.3s) and timing function (ease-in-out) as needed */
+
+}
+
+
+
+
+.send-emails .div-3 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.send-emails .header-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--colorsgray-200);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 10px 15px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.send-emails .text-wrapper-13 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.send-emails .text-wrapper-42 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.send-emails .form-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.send-emails .role-software {
+  color: #868686;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.send-emails .span {
+  font-weight: 700;
+}
+
+.send-emails .text-wrapper-14 {
+  color: #868686;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+}
+
+.send-emails .prospects-identified {
+  color: #868686;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  position: relative;
+  width: fit-content;
+}
+
+.send-emails .text-wrapper-15 {
+  font-style: italic;
+}
+
+.send-emails .contract-field {
+  align-items: baseline;
+  display: flex;
+  height: 31px;
+  justify-content: space-between;
+  position: relative;
+  width: 332px;
+}
+
+.send-emails .text-wrapper-16 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.send-emails .element-wrapper {
+  background: none;
+  border: 1px solid;
+  border-color: var(--colorsgray-300);
+  color: #000000;
+  flex: 1;
+  flex-grow: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  padding: 5.5px 10px;
+  position: relative;
+  text-align: center;
+  width: 20px;
+}
+
+.send-emails .frame-11 {
+  align-items: center;
+  background: none;
+  border: 1px solid;
+  border-color: var(--colorsgray-300);
+  color: #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 5px;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  padding: 5.5px 10px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.send-emails .frame-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: #ececee;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 20px 35px 0px;
+  position: relative;
+  width: 100%;
+  gap: 40px !important;
+
+}
+
+/* New CSS for Generating loading view */
+
+.send-emails .generating-view {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 15px;
+  position: relative;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+}
+
+.send-emails .generating-view h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.send-emails .generating-view p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.send-emails .generating-view .loading {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.send-emails .frame-12 .sucess {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: #ececee;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 20px 35px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.send-emails .button-9 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.send-emails .name-send-color-white {
+  left: unset !important;
+  top: unset !important;
+}
+
+.send-emails .name-x-close-color-default {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+
+.send-emails-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay background */
+  z-index: 999; /* Ensure it's above other content */
+}
+

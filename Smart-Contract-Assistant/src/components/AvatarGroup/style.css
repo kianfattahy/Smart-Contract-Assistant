@@ -1,0 +1,6 @@
+.avatar-group {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 20px;
+  position: relative;
+}

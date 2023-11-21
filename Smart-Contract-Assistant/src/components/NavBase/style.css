@@ -1,0 +1,74 @@
+.nav-base {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  gap: 67px;
+  height: 48px;
+  left: 20px;
+  padding: 12px 16px;
+  position: relative;
+  width: 299px;
+}
+
+.nav-base .content {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.nav-base .home {
+  flex: 1;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: var(--body-large-font-style);
+  font-weight: var(--body-large-font-weight);
+  height: 19px;
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-base .name-home-color-instance {
+  background-image: url(../../../static/img/home-02-6.png) !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.nav-base.one {
+  background-color: #f4f3ff;
+  top: 156px;
+}
+
+.nav-base.default {
+  background-color: var(--colorsbasewhite);
+  top: 20px;
+}
+
+.nav-base.two {
+  background-color: var(--gray-6);
+  top: 88px;
+}
+
+.nav-base.one .home {
+  color: var(--colorsprimary-300);
+}
+
+.nav-base.default .home {
+  color: var(--colorsbaseblack);
+}
+
+.nav-base.two .home {
+  color: var(--colorsbaseblack);
+}
+
+/* Existing code */
+
+/* New hover styles */
+.nav-base:hover .content {
+  transform: scale(1.05); /* Increase the size of the content by 5% */
+  transition: transform 0.3s ease; /* Animation transition */
+}

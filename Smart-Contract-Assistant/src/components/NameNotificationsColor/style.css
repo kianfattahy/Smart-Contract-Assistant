@@ -1,0 +1,9 @@
+.name-notifications-color {
+  background-image: url(../../../static/img/bell-02.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 56px;
+  position: relative;
+  top: 96px;
+  width: 24px;
+}

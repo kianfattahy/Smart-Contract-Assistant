@@ -1,0 +1,85 @@
+.header-container {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--colorsgray-200);
+}
+.header-container {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header-container .header {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--colorsgray-200);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 37px 26px;
+  position: relative;
+  width: 100%;
+}
+
+.header-container .div {
+  color: var(--colorsbaseblack);
+  font-family: var(--title-md-font-family);
+  font-size: var(--title-md-font-size);
+  font-style: var(--title-md-font-style);
+  font-weight: var(--title-md-font-weight);
+  letter-spacing: var(--title-md-letter-spacing);
+  line-height: var(--title-md-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header-container .actions {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 11px;
+  position: relative;
+}
+
+.header-container .button-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}
+
+.header-container .name-send-color-default {
+  left: unset !important;
+  top: unset !important;
+}
+
+.header-container .design-component-instance-node {
+  color: var(--colorsbaseblack) !important;
+}
+
+.header-container .button-2 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.header-container .icons-2 {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}

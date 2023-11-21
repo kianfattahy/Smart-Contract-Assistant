@@ -1,0 +1,1 @@
+export { NameSendColor } from "./NameSendColor";

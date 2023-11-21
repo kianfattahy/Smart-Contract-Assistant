@@ -1,0 +1,1 @@
+export { NameSearchColor } from "./NameSearchColor";

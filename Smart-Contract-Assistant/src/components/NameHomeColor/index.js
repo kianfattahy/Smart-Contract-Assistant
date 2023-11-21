@@ -1,0 +1,1 @@
+export { NameHomeColor } from "./NameHomeColor";

@@ -1,0 +1,1 @@
+export { NamePlusColor } from "./NamePlusColor";

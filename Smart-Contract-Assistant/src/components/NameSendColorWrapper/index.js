@@ -1,0 +1,1 @@
+export { NameSendColorWrapper } from "./NameSendColorWrapper";

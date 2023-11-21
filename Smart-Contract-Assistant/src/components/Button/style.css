@@ -1,0 +1,136 @@
+/* Button styles */
+.button {
+  all: unset;
+  align-items: flex-start;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px 16px;
+  position: relative;
+  cursor: pointer; /* Add cursor pointer for buttons */
+  transition: all 0.15s ease; /* Add a common transition for other properties */
+  /* Add a transition for the background-color property */
+  transition-property: background-color;
+  transition-duration: 1s; /* Set a consistent duration for shading */
+  /* Initial background color */
+  background-color: #c0c0c0;
+}
+
+.button .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.button .text-wrapper {
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  font-style: var(--body-medium-font-style);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .icons {
+  background-image: url(../../../static/img/home-02-2.png) !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.button .name-home-color-default {
+  background-image: url(../../../static/img/home-02-2.png) !important;
+  left: unset !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}
+
+.button.secondary {
+  background-color: var(--colorsprimary-100);
+  /* top: 128px; */
+}
+
+.button.green{
+  background-color: #27ae60cc;
+  /* width: fit-content; */
+}
+
+
+
+.button.primary {
+  background-color: var(--colorsprimary-300);
+  /* top: 20px; */
+  transition: all 0.15s ease;
+}
+
+.button.gray {
+  background-color: var(--colorsbasewhite);
+  border: 1px solid;
+  border-color: var(--gray-5);
+  /* top: 20px; */
+  transition: all 0.15s ease;
+}
+.button .design-component-instance-node-84 {
+  flex-direction: row;
+  position: relative;
+
+}
+
+.button.secondary .text-wrapper {
+  color: var(--colorsprimary-300);
+}
+.button.green .text-wrapper {
+  color: white;
+}
+
+.button.primary .text-wrapper {
+  color: var(--colorsbasewhite);
+}
+
+.button.gray .text-wrapper {
+  color: #000000;
+}
+
+/* Common hover effect for all buttons */
+.button:hover {
+  transform: scale(1.05); /* Increase the button size a little */
+  transition: all 0.15s ease;
+}
+
+.button.secondary:active {
+  color: #2d2d77; /* Text color for secondary button */
+}
+/* Click animation effect */
+.button:active {
+  background-color: #e5e5e5; /* Slightly darker border for gray */
+}
+
+/* Hover effects for specific button types */
+.button.primary:hover {
+  background-color: #3d3daa; /* Slightly darker shade for primary */
+  color: var(--colorsbasewhite);
+}
+.button.green:hover {
+  background-color: hsla(140, 63%, 40%, 1);; /* Slightly darker shade for primary */
+}
+
+.button.secondary:hover {
+  background-color: var(--colorsprimary-200); /* Slightly lighter shade for secondary */
+  color: var(--colorsprimary-300);
+}
+
+.button.gray:hover {
+  border-color: #c0c0c0; /* Slightly darker border for gray */
+  color: #111111; /* Slightly darker text */
+}
+
+.button.green:active {
+  background-color: #27ae60; /* New background color when clicked */
+}

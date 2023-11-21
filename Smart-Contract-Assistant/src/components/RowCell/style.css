@@ -1,0 +1,51 @@
+.row-cell {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  justify-content: center;
+  padding: 0px 12px;
+  position: relative;
+  width: 210px;
+}
+
+.row-cell .text-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.row-cell .primary-text {
+  align-self: stretch;
+  color: #272833;
+  font-family: var(--row-primary-text-font-family);
+  font-size: var(--row-primary-text-font-size);
+  font-style: var(--row-primary-text-font-style);
+  font-weight: var(--row-primary-text-font-weight);
+  letter-spacing: var(--row-primary-text-letter-spacing);
+  line-height: var(--row-primary-text-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.row-cell .text-wrapper-7 {
+  align-self: stretch;
+  color: #272833;
+  font-family: var(--row-secondary-text-font-family);
+  font-size: var(--row-secondary-text-font-size);
+  font-style: var(--row-secondary-text-font-style);
+  font-weight: var(--row-secondary-text-font-weight);
+  letter-spacing: var(--row-secondary-text-letter-spacing);
+  line-height: var(--row-secondary-text-line-height);
+  opacity: 0.7;
+  position: relative;
+}
+
+.row-cell .icon-right {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}

@@ -1,0 +1,9 @@
+.name-chevron-color {
+  background-image: url(../../../static/img/chevron-selector-vertical-1.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 92px;
+  position: relative;
+  top: 96px;
+  width: 24px;
+}

@@ -1,0 +1,66 @@
+.card {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px #0000000d;
+  display: inline-flex;
+  gap: 100px;
+  left: 483px;
+  padding: 24px;
+  position: relative;
+  top: 389px;
+}
+
+.card .content-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.card .total-customers {
+  color: var(--colorsgray-400);
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  font-style: var(--body-medium-font-style);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card .element {
+  color: #000000;
+  font-family: var(--title-lg-font-family);
+  font-size: var(--title-lg-font-size);
+  font-style: var(--title-lg-font-style);
+  font-weight: var(--title-lg-font-weight);
+  height: 50px;
+  letter-spacing: var(--title-lg-letter-spacing);
+  line-height: var(--title-lg-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.card .content-6 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  width: 74px;
+}
+
+.card .name-dots-vertical-color-default {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  transition: all 0.15s ease !important;
+}

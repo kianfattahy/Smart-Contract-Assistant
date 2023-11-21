@@ -1,0 +1,21 @@
+.name-bell-color {
+  background-image: url(../../../static/img/bell-02.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 56px;
+  position: relative;
+  top: 58px;
+  width: 24px;
+}
+
+.name-bell-color .ellipse {
+  background-color: var(--colorsprimary-300);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 3.5px;
+  height: 7px;
+  left: 14px;
+  position: relative;
+  top: 1px;
+  width: 7px;
+}

@@ -1,0 +1,9 @@
+.name-chat-color {
+  background-image: url(../../../static/img/message-chat-circle.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: 132px;
+  position: relative;
+  top: 20px;
+  width: 24px;
+}

@@ -1,0 +1,40 @@
+.text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  left: 220px;
+  position: relative;
+  top: 392px;
+}
+
+.text .catalog {
+  color: #000000;
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  font-style: var(--body-medium-font-style);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+  margin-left: 8px;
+}
+
+.text .catalogapp-io {
+  color: var(--colorsgray-300);
+  font-family: var(--body-medium-font-family);
+  font-size: var(--body-medium-font-size);
+  font-style: var(--body-medium-font-style);
+  font-weight: var(--body-medium-font-weight);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,1 @@
+export { NamePieChartColor } from "./NamePieChartColor";

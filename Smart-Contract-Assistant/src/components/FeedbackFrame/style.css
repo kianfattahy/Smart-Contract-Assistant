@@ -1,0 +1,49 @@
+/* style.css */
+.feedback-frame {
+  align-items: flex-end;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 15px;
+  opacity: 0.5;
+  padding: 10px; /* Added padding for the text */
+  position: relative;
+  max-width: 200px;
+}
+
+.feedback-frame .p {
+  align-self: stretch;
+  color: #000000;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 12px; /* Increased font size for better readability */
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px; /* Adjusted line height for better spacing */
+  margin-top: -1px;
+  position: relative;
+}
+
+.feedback-frame .icon-button {
+  flex: 0 0 auto;
+  margin-bottom: -6px;
+  margin-right: -4px;
+  position: relative;
+  transition: all 0.15s ease;
+  background: none; /* Remove the default button background */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  padding: 0; /* Remove default button padding */
+  transform-origin: center; /* Set the transform origin to the center */
+}
+
+.feedback-frame .icon-button img {
+  width: 100%; /* Ensure the image takes the full button space */
+  height: auto;
+}
+
+.feedback-frame .icon-button:hover {
+  transform: scale(1.05); /* Scale up the button by 5% on hover */
+}
