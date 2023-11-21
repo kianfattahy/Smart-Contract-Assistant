@@ -29,7 +29,7 @@ User Interface
    ![Screenshot 2023-11-21 at 12 09 50 PM](https://github.com/kianfattahy/Smart-Contract-Assistant/assets/94335877/0c9d31d8-2191-43cf-b15a-08256d781e84)
    
 ### 2. **Contracts Page**: Overview of Contracts
-  ![Screenshot 2023-11-21 at 12 35 13 PM](https://github.com/kianfattahy/Smart-Contract-Assistant/assets/94335877/35092d11-bed4-4704-889f-91364be54867)
+  ![Screenshot 2023-11-21 at 1 57 14 PM](https://github.com/kianfattahy/Smart-Contract-Assistant/assets/94335877/04960657-1d7c-499f-a783-f2dca7326879)
 
 ### 3. **Report Generation Page**: Generate Reports for Contracts
 ![Screenshot 2023-11-21 at 12 18 02 PM](https://github.com/kianfattahy/Smart-Contract-Assistant/assets/94335877/fc583ce4-fa2c-4e45-97e1-4c7de3453528)
