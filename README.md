@@ -7,7 +7,6 @@ Smart Contract Assistant is a tool utilizing artificial intelligence to facilita
 
 This project provided an opportunity to enhance my front-end software engineering skills, resulting in a product that emphasizes a polished and user-friendly interface. While the back-end is functional, it's less comprehensive, reflecting a primary focus on the interface's aesthetic and interactive qualities. The UI includes various placeholder elements to demonstrate potential features.
 
-
 This project is currently in the developmental stage, and might not include some sophisticated features.
 
 Table of Contents
@@ -26,11 +25,13 @@ Smart contract analysis is crucial in the blockchain ecosystem, yet it can be co
 
 User Interface
 --------------
+1. **Onboarding Page**: User login and authentication.
+   ![Screenshot 2023-11-21 at 12 35 13 PM](https://github.com/kianfattahy/Contract2Code/assets/94335877/e81870f4-2345-4af5-8e6c-3d1775b0b70e)
+2. **Contract Analysis Page**: Users can upload smart contracts for analysis.
+   ![Screenshot 2023-11-21 at 12 09 50 PM](https://github.com/kianfattahy/Contract2Code/assets/94335877/ac43ab74-cf50-4c67-96f2-cd9e44cd11ad)
+3. **Report Generation Page**: View and manage generated reports.
+![Screenshot 2023-11-21 at 12 18 02 PM](https://github.com/kianfattahy/Contract2Code/assets/94335877/4b248a70-ef85-4e3c-a4a6-fca176687add)
 
-1. **Contract Analysis Page**: Users can upload smart contracts for analysis.
-2. **Report Generation Page**: View and manage generated reports.
-3. **Settings Page**: Customize analysis settings.
-4. **Dashboard**: Quick overview of recent activities.
 
 Capabilities
 ------------
