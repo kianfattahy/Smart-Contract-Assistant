@@ -14,7 +14,6 @@ with open('../config.json', 'r') as config_file:
 
 openai.api_key = config['openai_api_key']
 
-
 app = Flask(__name__)
 CORS(app)
 user_onboarded = False
