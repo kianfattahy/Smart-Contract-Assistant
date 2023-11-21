@@ -98,6 +98,19 @@ npm run dev
 ```
 The React app should now be up and running.
 
+### Step 7: Input OpenAI API Token
+
+For the application to access OpenAI's features, you need to input your OpenAI API token. Follow these steps:
+
+1. Locate `config.json` file in your project's root directory.
+2. Inside the `config.json` file, add the following structure, replacing `YOUR_OPENAI_API_TOKEN` with your actual OpenAI API token:
+
+   ```json
+   {
+     "openai_api_token": "YOUR_OPENAI_API_TOKEN"
+   }
+
+
 ### Sample Contract: Try Analyzing This!
 
 
